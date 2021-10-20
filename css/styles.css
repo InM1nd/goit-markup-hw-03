@@ -228,6 +228,7 @@ img {
 .card-title {
   font-weight: 500;
   font-size: 16px;
+  font-weight: bold;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -288,6 +289,22 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.card-title-team {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+.team-text{
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--text-color);
+
+padding-top: 10px;
+}
 .team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -356,7 +373,6 @@ img {
 }
 .filter-card {
   background: #ffffff;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-left: 30px;
   margin-top: 30px;
@@ -365,6 +381,7 @@ img {
 
 .filter-fill {
   padding: 24px 25px;
+  border: 1px solid #eeeeee;
 }
 
 .filter-header{
